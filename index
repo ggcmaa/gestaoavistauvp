@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão à Vista - CMAA</title>
+    <style>
+        /* Remove margens e garante que o slide ocupe 100% da tela */
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            height: 100%; 
+            width: 100%; 
+            overflow: hidden; 
+            background-color: #000; 
+        }
+        iframe { 
+            width: 100vw; 
+            height: 100vh; 
+            border: none; 
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        src="https://docs.google.com/presentation/d/e/2PACX-1vQfWpeYo6_GoHVUJryGgbmoP3rP-NemMZqfgyoYZcorgNAZm99IJ56er6NlT37PVA-2csumE4b6WEgf/pubembed?start=true&loop=true&delayms=10000"
+        allowfullscreen="true" 
+        mozallowfullscreen="true" 
+        webkitallowfullscreen="true">
+    </iframe>
+
+    <script>
+        // Define o tempo de atualização (2 minutos = 120.000 milissegundos)
+        setTimeout(function(){
+            location.reload();
+        }, 120000);
+    </script>
+
+</body>
+</html>
